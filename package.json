@@ -1,11 +1,14 @@
 {
   "name": "evenepoelsplash",
   "version": "0.1.0",
-  "homepage": "http://nielsevenepoel.be",
+  "homepage": "http://nacreous-instrument.000webhostapp.com",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "fsevents": "^2.0.7",
+    "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
     "npm": "^6.10.0",
+    "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
