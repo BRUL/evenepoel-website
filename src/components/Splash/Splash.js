@@ -8,7 +8,7 @@ class Splash extends Component {
   render() {
     return (
       <div className="App-Splash">
-        <Carousel indicators={false} interval={30000}>
+        <Carousel indicators={false} interval={4000}>
           <Carousel.Item>
             <ResponsiveImage projectName="kolom" imageName="kolom-interactie" alt="" title=""/>
           </Carousel.Item>
