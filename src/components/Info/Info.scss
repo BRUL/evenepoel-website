@@ -1,0 +1,57 @@
+.App-Info {
+  text-align: right;
+
+  h1, p {
+    font-size: 1em;
+    margin: 1em;
+  }
+
+  .App-intro {
+    margin-bottom: 5em;
+  }
+
+  a {
+    color: #333333;
+  }
+  a.ninja {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img.logo {
+    display: inline-block;
+    height: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .soc a, svg {
+      display: inline-block;
+  }
+  .soc a {
+      position: relative; // IE8
+      height: 10px; // IE8
+      height: 1em;
+      width: 10px; // IE8
+      width: 1em;
+      margin-left: 1em;
+  }
+  .soc svg {
+      height: 100%;
+      width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .App-Info {
+
+    width: 50vw;
+    height: auto;
+    margin: auto 0;
+    
+  }
+
+}

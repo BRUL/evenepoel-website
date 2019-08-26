@@ -1,0 +1,19 @@
+.App-Splash {
+  
+  width: 100vw;
+
+  .carousel-item {
+    height: 100vh;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .App-Splash {
+
+    width: 50vw;
+
+  }
+
+}
