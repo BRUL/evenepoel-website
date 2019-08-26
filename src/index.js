@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './containers/App/App';
+
+import Info from './components/Info/Info'
+import Splash from './components/Splash/Splash'
+
 import './index.scss';
 
 ReactDOM.render(
-  <App />,
+  <div className="App">
+    <Info />
+    <Splash />
+  </div>,
   document.getElementById('root')
 );

@@ -12,7 +12,7 @@ class Info extends Component {
           <a href="mailto:niels@nejd.be" className="ninja">niels@nejd.be</a><br />
         </p>
         <p>
-          <img src={ logo } alt="NEJD logo" title="NEJD logo" className="logo" /><br />
+          <a href="https://nejd.be"><img src={ logo } alt="NEJD logo" title="NEJD logo" className="logo" /></a><br />
           Mede-oprichter van <a href="https://nejd.be">het ontwerpatelier NEJD</a> in Gent, België.
         </p>
         <p className="soc">

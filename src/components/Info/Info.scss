@@ -17,6 +17,7 @@
     text-decoration: none;
   }
   a:hover {
+    color: #666;
     text-decoration: underline;
   }
 
@@ -24,6 +25,9 @@
     display: inline-block;
     height: 1.5em;
     margin-bottom: 0.5em;
+  }
+  img.logo:hover, svg:hover {
+    filter: opacity(0.65);
   }
 
   .soc a, svg {
@@ -51,7 +55,7 @@
     width: 50vw;
     height: auto;
     margin: auto 0;
-    
+
   }
 
 }

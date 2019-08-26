@@ -1,9 +1,14 @@
 .App-Splash {
-  
+
   width: 100vw;
 
   .carousel-item {
     height: 100vh;
+  }
+
+  .right.carousel-control, .left.carousel-control {
+      opacity: 0;
+      filter:alpha(opacity=0); /* IE support */
   }
 
 }
